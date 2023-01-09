@@ -64,10 +64,7 @@ const id = setInterval(() => {
     const obj = convertMs(selected - current);
     if (selected <= current) {
    clearInterval(id)
-   obj.days = 0;
-   obj.seconds = 0;
-   obj.minutes = 0;
-   obj.hours = 0
+    return
       }
       days.innerHTML = obj.days;
       hours.innerHTML = obj.hours;
