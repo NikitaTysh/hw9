@@ -4,7 +4,7 @@ import { Notify } from 'notiflix';
 console.log(Notify);
 
 let selected = null;
-
+let current = null
 const days = document.querySelector('span[data-days]');
 const hours = document.querySelector('span[data-hours]');
 const minutes = document.querySelector('span[data-minutes]');
